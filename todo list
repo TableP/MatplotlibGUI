@@ -1,0 +1,55 @@
+PLAN
+UI
+add buttons and make it look clean
+look at finding a way to push graph resultant into canvas - if not possible just let the pop up exist
+-look into combo box more to find way to add objects and select using an accessor/getter
+
+MODEL
+implement functions to read CSV
+implement function to generate graph - look at matplotlib
+
+CONTROLLER - most likely a class that contains both UI and model linked as variable objects
+link button to model
+
+FINISHED
+add setters and getters for all the stuff cause right now its ugly and poor oop
+
+update x and y axis based on combobox - need to start actually making the button handler work for unique buttons
+
+additional params?
+visually show the changing value of the slider to make it easier for user
+-maybe even a manual typing of desired value - probably not implementing for awhile
+-real tryhard = live visualisation of the line width - scrap that its not happening
+
+why are the dots not added from lowest val to highest val? - fixed
+error handling zzzzzzzzzzz - done
+kinda want to make terminal more readable so rename params to their actual parameters - done
+combobox text update not as easy as slider update - find solution that is considered "elegant" - close enough
+customize name of axis - may have to change existing logic as it kinda relies on the key name
+add title to graph
+manually typing params - as far as i want to go with it
+
+optimize code to look nicer
+-mainly just think of utilizing my mass config mutator instead of the separate methods for x/y overloads and title setting
+-decided to just go with mass config mutator in my controller and then using setters
+
+
+TO DO
+
+after that i think the projects initial scope is compeleted (started 17/12/23 - 22/12/23 est finish)
+-i believe initial scope of project has now been finished - 22/12/23 (12:46pm)
+
+
+
+
+
+non-urgent
+
+
+
+
+out of scope
+add additional sub plots
+have a combobox for existing subplots
+remove lines
+
